@@ -1,0 +1,43 @@
+# Built application files / build output
+/build
+/app/build
+**/build/
+/captures
+/out
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Kotlin
+.kotlin/
+
+# Local configuration (SDK path, secrets) — machine-specific, never commit
+local.properties
+*.keystore
+*.jks
+keystore.properties
+
+# Android build intermediates
+/release
+/app/release
+*.apk
+*.aab
+*.ap_
+*.dex
+.externalNativeBuild
+.cxx
+
+# IDE — JetBrains / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

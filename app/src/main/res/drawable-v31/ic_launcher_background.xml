@@ -1,0 +1,26 @@
+<!--
+  API 31+ launcher background: a diagonal gradient sampled from the device's
+  dynamic colour palette (Material You). Light accent tones so the dark "S"
+  in the foreground reads clearly. Updates automatically when the user changes
+  wallpaper / palette.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="0"
+                android:endX="108" android:endY="108">
+                <item android:offset="0" android:color="@android:color/system_accent1_100" />
+                <item android:offset="0.5" android:color="@android:color/system_accent2_100" />
+                <item android:offset="1" android:color="@android:color/system_accent1_300" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

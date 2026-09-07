@@ -1,0 +1,24 @@
+<!--
+  Launcher background: static fallback for API 26-30 (the app's green).
+  API 31+ uses drawable-v31/ic_launcher_background.xml, a gradient built from
+  the device's dynamic colour palette.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="0"
+                android:endX="108" android:endY="108">
+                <item android:offset="0" android:color="#5C7E36" />
+                <item android:offset="1" android:color="#38501F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
